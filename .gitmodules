@@ -1,0 +1,12 @@
+[submodule "json5cpp"]
+	path = json5cpp
+	url = https://github.com/mortie/json5cpp.git
+[submodule "lua"]
+	path = lua
+	url = https://github.com/zhongfq/lua.git
+[submodule "olua"]
+	path = olua
+	url = https://github.com/zhongfq/olua.git
+[submodule "jsoncpp"]
+	path = jsoncpp
+	url = https://github.com/open-source-parsers/jsoncpp.git
