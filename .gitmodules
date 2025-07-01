@@ -1,6 +1,6 @@
 [submodule "json5cpp"]
 	path = json5cpp
-	url = https://github.com/mortie/json5cpp.git
+	url = https://github.com/zhongfq/json5cpp.git
 [submodule "lua"]
 	path = lua
 	url = https://github.com/zhongfq/lua.git

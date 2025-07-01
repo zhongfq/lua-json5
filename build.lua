@@ -16,6 +16,8 @@ clang {
     "-I./olua",
     "-I./lua",
     "-I./src",
+    "-I./json5cpp",
+    "-I./jsoncpp/include",
 }
 
 module "json5"
@@ -29,4 +31,14 @@ headers [[
 #include "json5_lua.h"
 ]]
 
-entry "json5::json5"
+entry "luajson5::json5"
+
+typedef "Json::Value"
+
+typeconf "luajson5::ParseConfig"
+    .from_table "true"
+    .var("newlinesAsCommas")
+        .attr("@optional")
+typeconf "luajson5::SerializeConfig"
+    .from_table "true"
+typeconf "luajson5::json5"
